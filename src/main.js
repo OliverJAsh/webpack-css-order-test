@@ -1,3 +1,6 @@
-import { Photos } from "./Photos";
+// Button CSS will be moved to the main chunk if we import it here:
+// import { Button } from "./Button";
+// Button;
 
-Photos;
+import(/* webpackChunkName: "Photos" */ "./Photos");
+import(/* webpackChunkName: "Collections" */ "./Collections");
