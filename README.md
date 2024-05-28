@@ -1,4 +1,4 @@
 ```console
 $ yarn
-$ rm -rf dist && webpack
+$ rm -rf dist && yarn run webpack
 ```
