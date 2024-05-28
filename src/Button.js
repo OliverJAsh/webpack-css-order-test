@@ -1,4 +1,3 @@
-// [1]
 import * as styles from "./Button.css";
 
 styles;
