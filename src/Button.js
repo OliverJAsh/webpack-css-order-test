@@ -1,5 +1,3 @@
 import * as styles from "./Button.css";
 
-styles;
-
-export const Button = () => {};
+export const Button = () => [styles.button];

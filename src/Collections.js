@@ -1,7 +1,4 @@
 import { Button } from "./Button";
 import * as styles from "./Collections.css";
 
-Button;
-styles;
-
-export const Collections = () => {};
+export const Collections = () => [Button, styles.button];
